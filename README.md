@@ -1,5 +1,5 @@
 # delifresshtest
-## Experimenting hosting using Netlify by making a portfolio website
+## Testing out a site for a grocery shop chain
 ## Features
 
 ⚡️ Modern UI Design + Reveal Animations\
