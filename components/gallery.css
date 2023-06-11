@@ -17,11 +17,11 @@ body {
 .gallery-item {
     flex-basis: 32.7%;
     margin-bottom: 6px;
-    opacity: .85;
+    opacity: 1;
     cursor: pointer;
 }
 .gallery-item:hover {
-    opacity: 1;
+    opacity: 0.8;
 }
 .gallery-item img {
     width: 100%;
@@ -33,6 +33,7 @@ body {
 }
 
 .lightbox {
+    padding-top: 100px;
     position: fixed;
     display: none;
     background-color: rgba(0, 0, 0, 0.8);

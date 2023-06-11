@@ -422,7 +422,7 @@ header
   cursor: pointer;
   display: block;
   position: absolute;
-  top: 23px;
+  top: 31px;
   width: 32px;
   height: 40px;
   text-indent: -9999em;
@@ -558,7 +558,7 @@ header
   }
   .header-area {
     background-color: #f7f7f7;
-    opacity: 0.85;
+    opacity: 0.95;
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
@@ -568,10 +568,12 @@ header
     padding: 0px;
   }
   .header-area .logo {
+    color: black;
     margin-left: 30px;
   }
   .header-area .menu-trigger {
     display: block !important;
+    color: black;
   }
   .header-area .main-nav {
     overflow: hidden;
