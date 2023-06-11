@@ -716,10 +716,14 @@ welcome
 @media (max-width: 1140px) {
   .welcome-area {
     height: auto;
+    background-size: cover;
+    background-color: white;
   }
-  .welcome-area .header-text {       
+  .welcome-area .header-text {   
+    padding-left: 0%;
+    padding-top: 30%;
+    margin-left: 0;    
     width: 92%;
-    padding-top: 793px;
   }
   .welcome-area .header-text .left-text {
     margin-top: 5%;
@@ -728,11 +732,23 @@ welcome
 }
 @media (max-width: 810px) {
   .welcome-area {
-    background-size: contain;
+    background-image: none;
+    background-size: cover;
+    background-color: white;
+  }
+  .welcome-area .header-text .left-text {
+    text-align: center;
+    size: 0.5;
+    margin: auto auto;
+    position: relative;
+    align-self: center;
+    margin-top: 35%;
+    transform: perspective(1px) translateY(-30%) !important;
   }
 
   .welcome-area .header-text {
-    padding-top: 100%;
+    padding-left: 12%;
+    padding-top: 60%;
     margin-left: 0;
   }
     
