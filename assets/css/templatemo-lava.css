@@ -302,8 +302,8 @@ header
 .header-area .main-nav .nav {
   float: left;
   margin-top: 27px;
-  margin-left: 8%;
-  margin-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: none;
   padding: 0px 20px;
   -webkit-transition: all 0.3s ease 0s;
