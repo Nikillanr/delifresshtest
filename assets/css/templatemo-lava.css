@@ -431,13 +431,13 @@ header
   display: block;
   position: absolute;
   top: 31px;
-  width: 8px;
+  width: 30px;
   height: 40px;
   text-indent: -9999em;
   z-index: 99;
   right: 40px;
   display: none;
-  padding-right: 5px;
+  
 }
 
 .header-area .main-nav .menu-trigger span,
@@ -568,6 +568,7 @@ header
   .logo img {
     width: 30px;
     float: none!important;
+    padding-right: 20px;
   }
   .header-area {
     background-color: #f7f7f7;
