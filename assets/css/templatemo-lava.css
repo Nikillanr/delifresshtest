@@ -276,7 +276,7 @@ header
   background: transparent;
 }
 
-.header-area .main-nav .logo {
+.header-area .main-nav .logo{
   line-height: 100px;
   color: #191a20;
   font-size: 28px;
@@ -289,12 +289,23 @@ header
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+.header-area .main-nav .logo img {
+  margin-left: 100px;
+  padding-top: 20px;
+  padding-right: 100px;
+  height: auto;
+  width: 350px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
 
 
 .header-area .main-nav .nav {
   float: left;
   margin-top: 27px;
-  margin-left: 15%;
+  margin-left: 4%;
   margin-right: 0px;
   background-color: none;
   padding: 0px 20px;
@@ -554,6 +565,12 @@ header
 @media (max-width: 991px) {
   .logo {
     text-align: center;
+    float: none!important;
+  }
+  .logo img {
+    visibility: hidden;
+    padding-top: 0px; 
+    width: 50px;
     float: none!important;
   }
   .header-area {
