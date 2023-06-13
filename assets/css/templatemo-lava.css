@@ -290,11 +290,8 @@ header
   transition: all 0.3s ease 0s;
 }
 .header-area .main-nav .logo img {
-  margin-left: 100px;
-  padding-top: 20px;
-  padding-right: 100px;
   height: auto;
-  width: 350px;
+  width: 200px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -305,7 +302,7 @@ header
 .header-area .main-nav .nav {
   float: left;
   margin-top: 27px;
-  margin-left: 4%;
+  margin-left: 8%;
   margin-right: 0px;
   background-color: none;
   padding: 0px 20px;
@@ -434,12 +431,13 @@ header
   display: block;
   position: absolute;
   top: 31px;
-  width: 32px;
+  width: 8px;
   height: 40px;
   text-indent: -9999em;
   z-index: 99;
   right: 40px;
   display: none;
+  padding-right: 5px;
 }
 
 .header-area .main-nav .menu-trigger span,
@@ -568,9 +566,7 @@ header
     float: none!important;
   }
   .logo img {
-    visibility: hidden;
-    padding-top: 0px; 
-    width: 50px;
+    width: 30px;
     float: none!important;
   }
   .header-area {
