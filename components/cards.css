@@ -30,23 +30,26 @@
 }
  div.cards {
 	 margin: 110px auto;
-	 max-width: 1080px;
+	 max-width: 1348px;
 	 text-align: center;
+	 border-radius: 9px;
 }
  div.card {
 	 background: #ffffff;
 	 display: inline-block;
-	 margin: 9px 17px;
-	 max-width: 400px;
+	 margin: 9px 30px;
+	 max-width: 500px;
 	 perspective: 1000;
 	 position: relative;
 	 text-align: left;
 	 transition: all 0.3s 0s ease-in;
-	 width: 300px;
+	 
 	 z-index: 1;
+	 border-radius: 9px;
 }
  div.card img {
-	 max-width: 400px;
+	 max-width: 500px;
+	 border-radius: 9px;
 }
  div.card .card__image-holder {
 	 background: rgba(0,0,0,0.1);
