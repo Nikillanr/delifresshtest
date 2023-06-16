@@ -746,17 +746,19 @@ welcome
 }
 @media (max-width: 810px) {
   .welcome-area {
-    background-image: none;
-    background-size: cover;
-    background-color: white;
+    background-image: url(../images/delifressh.png);
+    background-size: contain;
+    background-color: peachpuff;
+    margin-top: 100px;
   }
   .welcome-area .header-text .left-text {
+    display: none;
     text-align: center;
     size: 0.5;
     margin: auto auto;
     position: relative;
     align-self: center;
-    margin-top: 35%;
+    margin-top: 0%;
     transform: perspective(1px) translateY(-30%) !important;
   }
 
