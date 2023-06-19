@@ -679,6 +679,24 @@ welcome
   background-position: right top;
 }
 
+.welcome-area-cake{
+  width: 100%;
+  height: 100vh;
+  min-height: 793px;
+  background-image: url(../images/palam.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.welcome-area-hyper{
+  width: 100%;
+  height: 100vh;
+  min-height: 793px;
+  background-image: url(../images/palam.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
 .welcome-area .header-text .left-text {
   position: relative;
   align-self: center;
@@ -746,6 +764,18 @@ welcome
 }
 @media (max-width: 810px) {
   .welcome-area {
+    background-image: url(../images/delifressh.png);
+    background-size: contain;
+    background-color: peachpuff;
+    margin-top: 100px;
+  }
+  .welcome-area-cake{
+    background-image: url(../images/delifressh.png);
+    background-size: contain;
+    background-color: peachpuff;
+    margin-top: 100px;
+  }
+  .welcome-area-hyper{
     background-image: url(../images/delifressh.png);
     background-size: contain;
     background-color: peachpuff;
