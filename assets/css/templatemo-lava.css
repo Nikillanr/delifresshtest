@@ -704,7 +704,7 @@ welcome
   position: relative;
   align-self: center;
   margin-top: 35%;
-  transform: perspective(1px) translateY(-30%) !important;
+  transform: perspective(1px) translateX(-7%) translateY(-25%) !important;
 }
 
 .welcome-area .header-text h1 {
@@ -718,7 +718,7 @@ welcome
 
 .welcome-area .header-text h1 em {
   font-style: normal;
-  color: #fba70b;
+  color: #273d8b;
 }
 
 .welcome-area .header-text p {
