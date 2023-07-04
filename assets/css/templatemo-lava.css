@@ -764,7 +764,7 @@ welcome
   .welcome-area-hyper {
     background-image: url(../images/palamhyp2.png);  
     height: 80vh;
-    background-size: contain;
+    background-size: cover;
     background-color: white;
   }
   .welcome-area .header-text {   
@@ -795,7 +795,7 @@ welcome
   }
   .welcome-area-hyper{
     background-image: url(../images/palamhyp2.png);
-    background-size: contain;
+    background-size: cover;
     background-color: white;
     margin-top: 100px;
     height: 60vh;
