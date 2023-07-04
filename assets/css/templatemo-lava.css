@@ -694,10 +694,10 @@ welcome
   width: 100%;
   height: 100vh;
   min-height: 400px;
-  background-image: url(../images/palam.png);
+  background-image: url(../images/palamhyp.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: contain;
+  background-size: cover;
 }
 
 .welcome-area .header-text .left-text {
@@ -762,9 +762,9 @@ welcome
     background-color: white;
   }
   .welcome-area-hyper {
-    background-image: url(../images/palam2.png);  
+    background-image: url(../images/palamhyp2.png);  
     height: 80vh;
-    background-size: contain;
+    background-size: cover;
     background-color: white;
   }
   .welcome-area .header-text {   
@@ -794,7 +794,7 @@ welcome
     height: 60vh;
   }
   .welcome-area-hyper{
-    background-image: url(../images/palam2.png);
+    background-image: url(../images/palamhyp2.png);
     background-size: contain;
     background-color: white;
     margin-top: 100px;
