@@ -29,7 +29,7 @@
 
 		if (scroll >= box - header) {
 			$("header").addClass("background-header");
-		} else {
+		}else {
 			$("header").removeClass("background-header");
 		}
 	});
