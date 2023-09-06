@@ -932,6 +932,12 @@ promotion
   margin-top: 3px;
 }
 
+#promotion .right-text p{
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: 3px;
+}
+
 
 /*
 --------------------------------------------
@@ -1148,7 +1154,7 @@ footer .right-content {
 .footer-content .right-content h2 {
   margin-top: 0px;
   margin-bottom: 30px;
-  font-size: 42px;
+  font-size: 60px;
   text-transform: capitalize;
   font-weight: 700;
   letter-spacing: 1px;
@@ -1160,6 +1166,7 @@ footer .right-content {
 }
 
 .footer-content .right-content p {
+  font-size: 20px;
   color: #FFF;
 }
 
@@ -1168,7 +1175,7 @@ footer .right-content {
 }
 
 .footer-content .right-content a:hover {
-  color: #df2a00;
+  color: #191a20;
 }
 
 footer .social {
@@ -1190,9 +1197,9 @@ footer .social li a {
   text-align: center;
   background-color: transparent;
   border: 1px solid #fff;
-  width: 44px;
-  height: 44px;
-  line-height: 44px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
   border-radius: 50%;
   display: inline-block;
   font-size: 16px;

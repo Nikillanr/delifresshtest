@@ -48,7 +48,8 @@
 	 border-radius: 9px;
 }
  div.card img {
-	 max-width: 500px;
+	min-height: 250px;
+	 max-width: 300px;
 	 border-radius: 9px;
 }
  div.card .card__image-holder {
