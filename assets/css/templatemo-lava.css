@@ -859,6 +859,9 @@ about
   font-weight: 600;
   color: #fdefe9;
 }
+.features-item p{
+  font-size: 17.5px;
+} 
 
 .features-item img {
   z-index: 10;
